@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#header{
+  background-color: orangered;
+  
+  width:100%;
+  height: 100px;
+  position: sticky;
+  top: 0;
+}
+
+#header ul {
+    display: inline;
+    font-size: 20px;
+    list-style-type: none;
+    text-decoration-style: none;
+    
+}
+#header li {
+    float: left;
+    
+}
+#header a{
+    color: white;
+    background-color: rgb(255, 69, 0, 0.3);
+    width: 230px;
+    text-align: center;
+    padding: 10px 36px;
+    display: block;
+    height: 90px;
+    line-height: 90px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#header ul li ul {
+    display: none;
+    position: absolute;
+}
+#header ul li a:hover{
+    font-size: larger; 
+    transition: 0.6s;
+    display:block;
+
+}
+#header ul li ul li a:hover{
+    
+    text-align:end;
+    transition: 0.5s;
+
+}
+#header ul li a:hover + .homeSegments , .homeSegments:hover{
+    display: block;
+}
+#header ul li a:hover + .forusSegments,.forusSegments:hover{
+    display:block;
+}
+#header ul li a:hover + .contactSegments,.contactSegments:hover{
+    display:block;
+}
+#header ul li a:hover +.contactSegments:hover{
+    display:block;
+}
+
+.homeSegments li{
+    display: block;
+    background-color: rgb(255, 69, 0, 0.3); 
+    clear: both;
+}
+.forusSegments li {
+    background-color: rgb(255, 69, 0, 0.3);
+    clear: both;
+}
+.contactSegments li {
+    background-color: rgb(255, 69, 0, 0.3);
+    clear: both;
+}
+
+body{
+    height: 100vb;
+    background-image: url(https://julesverne.com.tr/wp-content/uploads/2022/11/193356554_m-scaled.jpg);
+    background-size:cover;
+    background-position: bottom;
+    text-align: center;
+}
+.alan{
+    max-width:  1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+#container{
+     
+    width: 75%;
+    margin-top: 60px;
+
+
+}
+
+#blog-container{
+    
+    float :left;
+    background-color: rgb(255, 255, 255,0.3);  
+    margin:20px;
+    padding: 30px;
+
+}
+
+.date {
+    position: relative;
+    color: blue;
+    right: -180px;
+    top:60px;
+    clear: right;
+}
+
+h1 {
+    float: left;
+    font-size: 20px;
+    clear: both;
+}
+
+.blog-post{
+    text-align: justify;
+    border: 2px solid black;
+    clear: both;
+}
+
+#otherside{
+    width: 25%;
+    margin: 0 auto;
+    float :left;
+    
+}
+
+.tops{
+    list-style: none;
+    font-size:20px;
+    margin: 20px;
+    color: black;
+    opacity: 1;
+}
+
+#keyword ul li{
+    
+    list-style-type: none;
+    color: red;
+    padding: 5px;
+    clear: right;
+    display: inline-block;
+    font-size: 15px;
+    margin-bottom: 30px;
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+
+#rightside{
+    padding:30px;
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(255, 255, 255,0.3);
+
+}
+
+#share  a{
+    text-decoration: none;
+    margin-right: 10px;
+    size: 20px;
+    color: white;
+    
+}
+#share a :hover{
+     opacity: 0.6;
+     font-size: larger;
+     transition: 0.5s;
+}
+.box{
+    border :2px solid black;
+    margin-bottom: 10px;
+    
+}
+span{
+    display: none;
+}
+#created{
+    font-size: 20px;
+    color: whitesmoke;
+}
+#created:hover span{
+    display: block;
+    font-size: 15px;
+    transition: 0.8s;
+    font-size: 22px;
+    color :whitesmoke;
+}
+
